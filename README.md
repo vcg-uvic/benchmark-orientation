@@ -11,9 +11,10 @@ This software is strictly for academic purposes only.  For other purposes, pleas
 
 Contact:
 
+<pre>
 Kwang Moo Yi : kwang<dot>yi<at>epfl<dot>ch
-
 Yannick Verdie : yannick<dot>verdie<at>epfl<dot>ch
+</pre>
 
 ## Requirements
 
