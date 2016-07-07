@@ -78,7 +78,9 @@ The dataset is available for download at the [project web page]( http://cvlab.ep
   `bark`, `leuven`, `rushmore`, `wall`, `bikes`, `notredame`, `yosemite`, `boat`, `obama`, `trees`, `graf`, `paintedladies`, `ubc`
   
   Use only the subset `rushmore`, `notredame`, `yosemite`, `obama`, `paintedladies`, as the others are used for training.
-  
+
+ *`Strecha` Dataset consists fo 2 sequences. The current release version of our benchmark software does not yet have the interface to convert the dataset into the form that can be used within the benchmark. We will release this one shortly.
+
  *`DTU` Dataset consists fo 60 sequences. The current release version of our benchmark software does not yet have the interface to convert the dataset into the form that can be used within the benchmark.
 
 For example, `chatnoir` directory should be located at <project root>/data/Viewpoints/chatnoir. Inside each dataset directory, the following directory structure should exist.
