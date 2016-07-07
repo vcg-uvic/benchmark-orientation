@@ -1,6 +1,6 @@
 # Learning to Assign Orientations to Feature Points
 
-This software is a MATLAB implemenation of the benchmark in [1]. This software is intended to be used in conjuction with the [learn-orientation](https://github.com/kmyid/learn-orientation) repository. By default, the software does *not* use GPU, but can be easily enabled by configuring Theano to do so.
+This software is a MATLAB implemenation of the benchmark in [1]. This software is intended to be used in conjuction with the [learn-orientation](https://github.com/kmyid/learn-orientation) repository, i.e. they should be *cloned side-by-side*. By default, the software does *not* use GPU, but can be easily enabled by configuring Theano to do so.
 
 In order to avoid computing the same thing multiple times, This software **USES CACHING BY DEFAULT**.  It will save computed keypoints and descriptors in sub-directory of the dataset directories (detail on the dataset section below). In case you need to reset them, be sure to erase the cache files.
 
