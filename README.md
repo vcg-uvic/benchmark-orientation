@@ -28,7 +28,7 @@ Yannick Verdie : yannick_dot_verdie_at_epfl_dot_ch
 * ImageMagick (for the command 'convert') available both on Mac and Linux
 * Pkg-config
 * [VGG learned models from Oxford](http://www.robots.ox.ac.uk/~vgg/software/learn_desc/)
-  - Download the `data_compute.tar` and copy the subfolders to the subfolders in <matlab/external/vgg_models>. `patches.mat` files are not needed.
+  - Download the `data_compute.tar` and copy the subfolders to the subfolders in `matlab/external/vgg_models`. `patches.mat` files are not needed.
 
 ### Important
 
