@@ -32,11 +32,11 @@ Yannick Verdie : yannick_dot_verdie_at_epfl_dot_ch
 
 ### Important
 
-Make sure the binaries provided in <matlab/external/methods> are compiled for your platform. If not, run `buildAll.sh` in <matlab/external>, `buildAll.m` in <matlab/external>, `buildAll.m` in <matlab/src/Utils/tools_evaluate/mex>
+Make sure the binaries provided in `matlab/external/methods` are compiled for your platform. If not, run `buildAll.sh` in `matlab/external`, `buildAll.m` in `matlab/external`, `buildAll.m` in `matlab/src/Utils/tools_evaluate/mex`
 
 ## Usage
 
-At the <matlab/src> directory in MATLAB,
+At the `matlab/src` directory in MATLAB,
 
  ```matlab
  run_evaluate(<dataset_name>, <number_of_keypoints>)
@@ -85,7 +85,7 @@ The dataset is available for download at the [project web page]( http://cvlab.ep
 
  *`DTU` Dataset consists of 60 sequences. The current release version of our benchmark software does not yet have the interface to convert the dataset into the form that can be used within the benchmark.
 
-For example, `chatnoir` directory should be located at <project root>/data/Viewpoints/chatnoir. Inside each dataset directory, the following directory structure should exist.
+For example, `chatnoir` directory should be located at `<project root>/data/Viewpoints/chatnoir`. Inside each dataset directory, the following directory structure should exist.
 
 <pre>
 Sequence Name
@@ -104,10 +104,10 @@ Sequence Name
 
 ### Licenses
 
-  Implementations in the <matlab/external> directory are mostly adaptations of 3rd party software into our evaluation framework.  For the terms of use for the 3rd party software, please refer to the license files in <matlab/external/licenses>
+  Implementations in the `matlab/external` directory are mostly adaptations of 3rd party software into our evaluation framework.  For the terms of use for the 3rd party software, please refer to the license files in `matlab/external/licenses`
 
 
 ### Modifications
 
-  For the VLFeat Library, we hacked into vl/covdet.c so that we gain control on the number of orientations the detectors return.  We set it to use a single orientation.
+  For the VLFeat Library, we hacked into `vl/covdet.c` so that we gain control on the number of orientations the detectors return.  We set it to use a single orientation.
 
