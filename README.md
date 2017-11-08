@@ -55,6 +55,8 @@ For example,
 
 Two models are released in this repository. One trained with Edge-Foci keypoints and SIFT descriptors, and the other trained with SIFT keypoints and SIFT descriptors. The former corresponds to EF-SIFT+, EF-Daisy-star, EF-VGG-star in the paper, which gave best performance. The latter corresponds to SIFT+.
 
+Additionally, model trained with random rotation augmentations are provided as ef-sift-360 for convenience. This model should be used when severe rotations are expected.
+
 ## Directory Structure
 
 <pre>
