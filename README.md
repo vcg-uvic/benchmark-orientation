@@ -51,6 +51,10 @@ For example,
  termDisp(0,'Oxford','','Viewpoints', 1000);
  ```
    
+## About the models
+
+Two models are released in this repository. One trained with Edge-Foci keypoints and SIFT descriptors, and the other trained with SIFT keypoints and SIFT descriptors. The former corresponds to EF-SIFT+, EF-Daisy-star, EF-VGG-star in the paper, which gave best performance. The latter corresponds to SIFT+.
+
 ## Directory Structure
 
 <pre>
