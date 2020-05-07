@@ -71,7 +71,7 @@ data : Dataset directory
 
 ## Datasets
 
-The dataset is available for download at the [project web page]( http://cvlab.epfl.ch/research/detect/orientation). Extract the archive to the corresponding data directory to use the datasets.
+The dataset is available for download at the [project web page](https://www.epfl.ch/labs/cvlab/research/descriptors-and-keypoints/research-detect-orientation/). Extract the archive to the corresponding data directory to use the datasets.
 
  *`Viewpoints` Dataset includes the following directories
 
